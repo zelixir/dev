@@ -1,0 +1,238 @@
+digraph "ema" {
+	graph [	
+		fontsize = 36,
+		label = "\n\n\n\nema",
+		size = "12,12" ];
+  node [	shape = polygon,
+		sides = 4,
+		distortion = "0.0",
+		orientation = "0.0",
+		skew = "0.0",
+		color = white,
+		style = filled ];
+
+start -> o1;
+o1 -> o2;
+    
+start [
+  label = "Ponycanion"
+];
+o1 [
+  label = "Title"
+];
+o2 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_1",
+];
+o2 -> o48 [label = "nop", color = gray];
+o2 -> o3 [label = "do"];
+o2 -> o46 [label = "donot"];
+o3 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_2",
+];
+o3-> o47[label = "0.1%", color = red] ; 
+o3-> o9 [label = "99.9%"]; 
+o4 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_5(random 1 of 4)",
+];
+o4      -> o10[label = "0.1%", color = red] ;
+o4      -> o8[label = "99.9%"];
+o8 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_9",
+];
+o8      -> o11;
+o9 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_3",
+];
+o9      -> o4[label = "1/4"];
+o10 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_10",
+];
+o10 ->      o1[color = gray];
+o11 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_11",
+];
+o11      -> o49[label = "nop", color = gray];
+o11      -> o12[label = "left"];
+o11      -> o13[label = "right"];
+o12 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_45",
+];
+o12      -> o14;
+o13 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_46",
+];
+   o13   -> o15;
+o14 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_12",
+];
+   o14   -> o16;
+o15 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_13",
+];
+   o15   -> o17;
+o16 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_14",
+];
+   o16   -> o50[label = "nop", color = gray];
+   o16   -> o18[label = "left"];
+   o16   -> o19[label = "right"];
+o17 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_17",
+];
+   o17   -> o51[label = "nop", color = gray];
+   o17   -> o20[label = "left"];
+   o17   -> o21[label = "right"];
+o18 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_15(line1)",
+];
+o18 -> o26 [label = "1/6"];
+o18 -> o25 [label = "5/6"];
+  o19 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_16(line2)",
+
+];
+o19 -> o26[label = "1/6"];
+o19 -> o25[label = "5/6"];
+o20 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_18(line3)",
+];
+o20 -> o26[label = "1/6"];
+o20 -> o25[label = "5/6"];
+o21 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_19(line4)",
+];
+o21 -> o26[label = "1/6"];
+o21 -> o25[label = "5/6"];
+o25 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_23(random 1 of 4)",
+];
+o25   -> o30;
+o26 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_24(random 1 of 4)",
+];
+o26   -> o31;
+o30 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_28",
+];
+o30 -> o32[label = "line1"];
+o30 -> o33[label = "line2"];
+o30 -> o34[label = "line3"];
+o30 -> o35[label = "line4"];
+o31 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_29",
+];
+o31 -> o32[label = "line1"];
+o31 -> o33[label = "line2"];
+o31 -> o34[label = "line3"];
+o31 -> o35[label = "line4"];
+o32 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_30",
+];
+o32 -> o37[label = "0.1%", color = red] ;
+o32 -> o36[label = "99.9%"];
+o33 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_31",
+];
+o33 -> o37[label = "0.1%", color = red] ;
+o33 -> o36[label = "99.9%"];
+o34 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_32",
+];
+o34 -> o39[label = "0.1%", color = red] ;
+o34 -> o38[label = "99.9%"];
+o35 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_33",
+];
+o35 -> o39[label = "0.1%", color = red] ;
+o35 -> o38[label = "99.9%"];
+o36 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_34",
+];
+o36 -> o40;
+o37 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_35",
+];
+o37 -> o1[color = gray];
+o38 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_36",
+];
+o38 -> o41;
+o39 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_37",
+];
+o39 -> o1[color = gray];
+o40 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_38",
+];
+o40   -> o52[label = "nop", color = gray];
+o40   -> o42[label = "left"];
+o40   -> o43[label = "right"];
+o41 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_41",
+];
+o41   -> o53[label = "nop", color = gray];
+o41   -> o44[label = "left"];
+o41   -> o45[label = "right"];
+
+o42 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_39",
+];
+o42   -> o46;
+o43 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_40",
+];
+o43   -> o46;
+o44 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_42",
+];
+o44   -> o46;
+o45 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_43",
+];
+o45   -> o46;
+o46 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_44",
+];
+o46 ->  o1[color = gray];
+o47 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_4   ",
+];
+o47 ->  o1[color = gray];
+o48 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_47",
+];
+o48   -> o48[label = "nop", color = gray];
+o48 -> o3 [label = "do"];
+o48 -> o46 [label = "donot"];
+     
+o49 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_48",
+];
+o49   -> o49[label = "nop", color = gray];
+o49      -> o12[label = "left"];
+o49      -> o13[label = "right"];
+o50 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_49",
+];
+o50   -> o50[label = "nop", color = gray];
+   o50   -> o18[label = "left"];
+   o50   -> o19[label = "right"];
+o51 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_50",
+];
+o51   -> o51[label = "nop", color = gray];
+o51   -> o20[label = "left"];
+o51   -> o21[label = "right"];
+o52 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_51",
+];
+o52   -> o52[label = "nop", color = gray];
+o52   -> o42[label = "left"];
+o52   -> o43[label = "right"];
+o53 [
+      label = "PLAY_PL_PLAY_PL_PLAY_PL_52",
+];
+o53   -> o53[label = "nop", color = gray];
+o53   -> o44[label = "left"];
+o53   -> o45[label = "right"];
+}
